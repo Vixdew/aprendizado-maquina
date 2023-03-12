@@ -10,9 +10,31 @@ Escolhemos os algoritmos KNN, Floresta Aleatória, e regressão linear. O objeti
 
 A partir do banco de dados mushroom.csv, separamos os dados em cinco folds, garantindo que cada fold tenha um número o mais balanceado de instancias comestíveis e venenosas. Após isso, para cada algoritmo, verificamos diversas vezes a performance dos modelos. Isto é feito designando um dos folds como sendo para teste, treinando o modelo nos outros folds, e depois usando o fold de teste para verificar a performance do algoritmo.
 
-## Resultados e análise
+## Resultados
 
-Os resultados e análise dos resultados pode ser verificado no PDF disponbilizado no repositório.
+![](img/index.png?raw=true "Análise de Acurácia")
+
+*Plot da Acurácia*
+
+![](img/index2.png?raw=true "Análise de Sensibilidade")
+
+*Plot da Sensibilidade*
+
+![](img/index3.png?raw=true "Análise de Precisão")
+
+*Plot da Precisão*
+
+![](img/index4.png?raw=true "Análise de F1-Measure")
+
+*Plot de F1-Measure*
+
+![](img/table.png?raw=true "Tabela das métricas")
+
+*Tabela comparando métricas*
+
+## Análise e Conclusão
+
+A análise de e conclusão sobre os resultados pode ser verificado no PDF disponbilizado no repositório.
 
 ## Instruções de uso
 
